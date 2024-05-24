@@ -9,7 +9,7 @@ export function createHome(){
     <div class="inner-container" style="text-align: center;">
         <p>Best pizza in the world</p>
         <p>Made with passion since 1999</p>
-        <img id='pizzaChief' src=${Icon} alt="pizza chief">
+        <img id='pizzaChief' src=${Icon} alt="pizza chief" style="width: 25%; height: auto;">
         <p>Order online or visit us!</p>
     </div>
     `;
