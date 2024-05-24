@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/pizzaBackground.jpg */ \"./src/img/pizzaBackground.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* src/styles.css */\r\nbody {\r\n    margin: 0;\r\n    color: white;\r\n    font-family: Arial, sans-serif;\r\n    background: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) no-repeat;\r\n    background-size: cover;\r\n}\r\n\r\n.container{\r\n    width: 100%;\r\n    height: 100vh;\r\n    display: grid;\r\n    grid-template-columns: 1fr;\r\n    grid-template-rows: 1fr 6fr 1fr;\r\n}\r\n\r\n.header, \r\n#content,\r\n.footer{\r\n    background-color: rgba(0, 0, 0, 0.8); /* 80% opacity */\r\n}\r\n\r\n.footer button{\r\n\r\n}\r\n\r\n.header{\r\n    /* border-bottom: 3px solid #020617; */\r\n\r\n}\r\n\r\n#content{\r\n\r\n\r\n}\r\n.footer {\r\n    position: absolute;\r\n    bottom: 0;\r\n    width: 100%;\r\n    height: 2.5rem;            /* Footer height */\r\n  }`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page-project/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./Italianno-Regular.ttf */ \"./src/Italianno-Regular.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./img/pizzaBackground.jpg */ \"./src/img/pizzaBackground.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `@font-face {\r\n    font-family: \"Italianno\";\r\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\r\n}\r\n/* src/styles.css */\r\nbody {\r\n  margin: 0;\r\n  color: white;\r\n  font-family: Arial, sans-serif;\r\n  background: url(${___CSS_LOADER_URL_REPLACEMENT_1___});\r\n  background-size: cover;\r\n}\r\n\r\n.container {\r\n  width: 100%;\r\n  height: 100vh;\r\n  display: grid;\r\n  grid-template-columns: 1fr;\r\n  grid-template-rows: 1fr 6fr 1fr;\r\n}\r\n\r\n.header,\r\n#content,\r\n.footer {\r\n  background-color: rgba(0, 0, 0, 0.8); /* 80% opacity */\r\n}\r\n.header {\r\n    text-align: center;\r\n}\r\n\r\n#name{\r\n    font-size: 72px;\r\n    font-family: \"Italianno\";\r\n}\r\n.header-button {\r\n    position: relative;\r\n    background: none;\r\n    border: none;\r\n    color: white;\r\n    font-size: 24px;\r\n    padding: 20px 30px;\r\n    cursor: pointer;\r\n    outline: none;\r\n}\r\n\r\n.header-button::after {\r\n    content: '';\r\n    position: absolute;\r\n    left: 0;\r\n    bottom: 0;\r\n    width: 100%;\r\n    height: 2px;\r\n    background-color: white; /* White line under the button */\r\n}\r\n\r\n\r\n.header-button:hover {\r\n    animation: bounce 0.3s ease; /* Apply bounce effect on hover */\r\n}\r\n\r\n@keyframes bounce {\r\n    0%, 100% {\r\n        transform: translateY(0);\r\n    }\r\n    50% {\r\n        transform: translateY(-5px);\r\n    }\r\n}\r\n\r\n\r\n#content{\r\n    display: grid;\r\n    justify-self: center; /* Centers horizontally */\r\n    align-self: center; /* Centers vertically */\r\n    align-items: center;\r\n    justify-items: center;\r\n    width: 75%;\r\n    height: 85%;\r\n    font-size: 24px;\r\n    border: 2px solid black;\r\n    background-color: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n.menu-container{\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    margin: 25px;\r\n    gap: 25px;\r\n}\r\n\r\n.menu-container .grid{\r\n    display: grid;\r\n    align-items: center;\r\n    justify-items: center;\r\n    background-color: rgba(0, 0, 0, 0.5);\r\n    text-align: center;\r\n}\r\n\r\n.menu-container .grid img{\r\n    height: 100px;\r\n    width: 100px;\r\n}\r\n\r\n#pizzaChief{\r\n    height:350px;\r\n    width: 350px;\r\n    border-radius: 50%;\r\n}\r\n\r\n.pizzaImg{\r\n    height:100px;\r\n    width: 100px;\r\n}\r\n\r\n.footer {\r\n  position: absolute;\r\n  bottom: 0;\r\n  width: 100%;\r\n  height: 2.5rem; /* Footer height */\r\n}\r\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page-project/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createContact: () => (/* binding */ createContact)\n/* harmony export */ });\nfunction createContact(){\r\n    const body = document.querySelector('#content');\r\n    body.innerHTML = \" \";\r\n    const content = `\r\n    <p>(icon) 123 465 789</p>\r\n    <p>(icon)1600 Pennsylvania Avenue, Washington DC</p>\r\n    <img src=\"\" alt=\"pizza\">\r\n    `;\r\n\r\n    body.innerHTML = content\r\n}\n\n//# sourceURL=webpack://restaurant-page-project/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createContact: () => (/* binding */ createContact)\n/* harmony export */ });\n/* harmony import */ var _img_phoneIcon_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/phoneIcon.svg */ \"./src/img/phoneIcon.svg\");\n/* harmony import */ var _img_homeIcon_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/homeIcon.svg */ \"./src/img/homeIcon.svg\");\n/* harmony import */ var _img_Resturant_map_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/Resturant-map.png */ \"./src/img/Resturant-map.png\");\n\r\n\r\n\r\n\r\nfunction createContact() {\r\n  const body = document.querySelector(\"#content\");\r\n  body.innerHTML = \" \";\r\n  const content = `\r\n    <div class=\"inner-container\">\r\n        <p><img src=${_img_phoneIcon_svg__WEBPACK_IMPORTED_MODULE_0__} alt=\"pizza chief\"> 123 465 789</p>\r\n        <p><img src=${_img_homeIcon_svg__WEBPACK_IMPORTED_MODULE_1__} alt=\"pizza chief\"> 1600 Pennsylvania Avenue, Washington DC</p>\r\n        <img src=${_img_Resturant_map_png__WEBPACK_IMPORTED_MODULE_2__} alt=\"pizza\">\r\n    </div>\r\n    `;\r\n\r\n  body.innerHTML = content;\r\n}\r\n\n\n//# sourceURL=webpack://restaurant-page-project/./src/contact.js?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createHome: () => (/* binding */ createHome)\n/* harmony export */ });\nfunction createHome(){\r\n    const body = document.querySelector('#content');\r\n    body.innerHTML = \" \";\r\n\r\n    // Option 1\r\n    const content = `\r\n    <p>Best pizza in the world</p>\r\n    <p>Made with passion since 1999</p>\r\n    <img src=\"path/to/image.jpg\" alt=\"pizza chief\">\r\n    <p>Order online or visit us!</p>\r\n    `;\r\n\r\n    body.innerHTML = content;\r\n\r\n    // Option 2\r\n\r\n    // const para1 = document.createElement('p');\r\n    // para1.textContent = \"Best pizza in the world\";\r\n\r\n    // const para2 = document.createElement('p');\r\n    // para2.textContent = \"Made with passion since 1999\";\r\n\r\n    // const img = document.createElement('img');\r\n    // img.src = '';\r\n    // img.alt = 'pizza chief';\r\n\r\n    // const para3 = document.createElement('p');\r\n    // para3.textContent = \"Order online or visit us!\";\r\n\r\n    // document.body.appendChild(para1);\r\n    // document.body.appendChild(para2);\r\n    // document.body.appendChild(img);\r\n    // document.body.appendChild(para3);\r\n\r\n}\r\n\r\n// module.exports = createMenu;\n\n//# sourceURL=webpack://restaurant-page-project/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createHome: () => (/* binding */ createHome)\n/* harmony export */ });\n/* harmony import */ var _img_pizzaChief_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/pizzaChief.jpg */ \"./src/img/pizzaChief.jpg\");\n\r\n\r\nfunction createHome(){\r\n    const body = document.querySelector('#content');\r\n    body.innerHTML = \" \";\r\n\r\n    // Option 1\r\n    const content = `\r\n    <div class=\"inner-container\" style=\"text-align: center;\">\r\n        <p>Best pizza in the world</p>\r\n        <p>Made with passion since 1999</p>\r\n        <img id='pizzaChief' src=${_img_pizzaChief_jpg__WEBPACK_IMPORTED_MODULE_0__} alt=\"pizza chief\">\r\n        <p>Order online or visit us!</p>\r\n    </div>\r\n    `;\r\n\r\n    body.innerHTML = content;\r\n\r\n    // Option 2\r\n\r\n    // const para1 = document.createElement('p');\r\n    // para1.textContent = \"Best pizza in the world\";\r\n\r\n    // const para2 = document.createElement('p');\r\n    // para2.textContent = \"Made with passion since 1999\";\r\n\r\n    // const img = document.createElement('img');\r\n    // img.src = '';\r\n    // img.alt = 'pizza chief';\r\n\r\n    // const para3 = document.createElement('p');\r\n    // para3.textContent = \"Order online or visit us!\";\r\n\r\n    // document.body.appendChild(para1);\r\n    // document.body.appendChild(para2);\r\n    // document.body.appendChild(img);\r\n    // document.body.appendChild(para3);\r\n\r\n}\r\n\r\n// module.exports = createMenu;\n\n//# sourceURL=webpack://restaurant-page-project/./src/home.js?");
 
 /***/ }),
 
@@ -156,7 +156,87 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createMenu: () => (/* binding */ createMenu)\n/* harmony export */ });\nfunction createMenu() {\r\n  const body = document.querySelector(\"#content\");\r\n  body.innerHTML = \" \";\r\n\r\n  const content = `\r\n    <img src=\"\" alt=\"pizza\">\r\n    <h1>Margherita</h1>\r\n    <p>Tomato sauce, Mozzarella, Tomato, Fresh basil, Olive oil, Salt</p>\r\n\r\n    <img src=\"\" alt=\"pizza\">\r\n    <h1>Pepperoni</h1>\r\n    <p>Tomato sauce, Mozzarella, Pepperoni slices.</p>\r\n\r\n    <img src=\"\" alt=\"pizza\">\r\n    <h1>BBQ Chicken</h1>\r\n    <p>BBQ sauce, Mozzarella, Grilled chicken, Red onions, Cilantro.</p>\r\n\r\n    <img src=\"\" alt=\"pizza\">\r\n    <h1>Hawaiian</h1>\r\n    <p>Tomato sauce, Mozzarella, Ham, Pineapple chunks.</p>\r\n    `;\r\n\r\n  body.innerHTML = content;\r\n}\r\n\n\n//# sourceURL=webpack://restaurant-page-project/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createMenu: () => (/* binding */ createMenu)\n/* harmony export */ });\n/* harmony import */ var _img_pizza1_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/pizza1.png */ \"./src/img/pizza1.png\");\n/* harmony import */ var _img_pizza2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/pizza2.png */ \"./src/img/pizza2.png\");\n/* harmony import */ var _img_pizza3_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/pizza3.png */ \"./src/img/pizza3.png\");\n/* harmony import */ var _img_pizza4_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/pizza4.png */ \"./src/img/pizza4.png\");\n\r\n\r\n\r\n\r\n\r\n\r\nfunction createMenu() {\r\n  const body = document.querySelector(\"#content\");\r\n  body.innerHTML = \" \";\r\n\r\n  const content = `\r\n    <div class=\"menu-container\">\r\n      \r\n      <div class=\"grid\">\r\n        <img src=${_img_pizza1_png__WEBPACK_IMPORTED_MODULE_0__} alt=\"Margherita Pizza\">\r\n        <h1>Margherita</h1>\r\n        <p>Tomato sauce, Mozzarella, Tomato, Fresh basil, Olive oil, Salt</p>\r\n      </div>\r\n\r\n      <div class=\"grid\">\r\n        <img src=${_img_pizza2_png__WEBPACK_IMPORTED_MODULE_1__} alt=\"Pepperoni Pizza\">\r\n        <h1>Pepperoni</h1>\r\n        <p>Tomato sauce, Mozzarella, Pepperoni slices.</p>\r\n      </div>\r\n\r\n      <div class=\"grid\">\r\n        <img src=${_img_pizza3_png__WEBPACK_IMPORTED_MODULE_2__} alt=\"BBQ Chicken Pizza\">\r\n        <h1>BBQ Chicken</h1>\r\n        <p>BBQ sauce, Mozzarella, Grilled chicken, Red onions, Cilantro.</p>\r\n      </div>\r\n    \r\n      <div class=\"grid\">\r\n        <img src=${_img_pizza4_png__WEBPACK_IMPORTED_MODULE_3__} alt=\"Hawaiian Pizza\">\r\n        <h1>Hawaiian</h1>\r\n        <p>Tomato sauce, Mozzarella, Ham, Pineapple chunks.</p>\r\n      </div>\r\n\r\n    </div>\r\n    `;\r\n\r\n  body.innerHTML = content;\r\n}\r\n\n\n//# sourceURL=webpack://restaurant-page-project/./src/menu.js?");
+
+/***/ }),
+
+/***/ "./src/Italianno-Regular.ttf":
+/*!***********************************!*\
+  !*** ./src/Italianno-Regular.ttf ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"af758e9e36a2222b1130.ttf\";\n\n//# sourceURL=webpack://restaurant-page-project/./src/Italianno-Regular.ttf?");
+
+/***/ }),
+
+/***/ "./src/img/Resturant-map.png":
+/*!***********************************!*\
+  !*** ./src/img/Resturant-map.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"44f226c3f07457d442da.png\";\n\n//# sourceURL=webpack://restaurant-page-project/./src/img/Resturant-map.png?");
+
+/***/ }),
+
+/***/ "./src/img/homeIcon.svg":
+/*!******************************!*\
+  !*** ./src/img/homeIcon.svg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"abf235a848ffc66d0815.svg\";\n\n//# sourceURL=webpack://restaurant-page-project/./src/img/homeIcon.svg?");
+
+/***/ }),
+
+/***/ "./src/img/phoneIcon.svg":
+/*!*******************************!*\
+  !*** ./src/img/phoneIcon.svg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"03100f71f1a239f49a6b.svg\";\n\n//# sourceURL=webpack://restaurant-page-project/./src/img/phoneIcon.svg?");
+
+/***/ }),
+
+/***/ "./src/img/pizza1.png":
+/*!****************************!*\
+  !*** ./src/img/pizza1.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"cb53ceff9004cd87d4e2.png\";\n\n//# sourceURL=webpack://restaurant-page-project/./src/img/pizza1.png?");
+
+/***/ }),
+
+/***/ "./src/img/pizza2.png":
+/*!****************************!*\
+  !*** ./src/img/pizza2.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"36f12681bd1392381408.png\";\n\n//# sourceURL=webpack://restaurant-page-project/./src/img/pizza2.png?");
+
+/***/ }),
+
+/***/ "./src/img/pizza3.png":
+/*!****************************!*\
+  !*** ./src/img/pizza3.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3f417c685919869e7ba2.png\";\n\n//# sourceURL=webpack://restaurant-page-project/./src/img/pizza3.png?");
+
+/***/ }),
+
+/***/ "./src/img/pizza4.png":
+/*!****************************!*\
+  !*** ./src/img/pizza4.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2e30927c9122212843a0.png\";\n\n//# sourceURL=webpack://restaurant-page-project/./src/img/pizza4.png?");
 
 /***/ }),
 
@@ -167,6 +247,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"3d4902d2f5d7773323fc.jpg\";\n\n//# sourceURL=webpack://restaurant-page-project/./src/img/pizzaBackground.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/pizzaChief.jpg":
+/*!********************************!*\
+  !*** ./src/img/pizzaChief.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8d6b91ff58cf640b982a.jpg\";\n\n//# sourceURL=webpack://restaurant-page-project/./src/img/pizzaChief.jpg?");
 
 /***/ })
 

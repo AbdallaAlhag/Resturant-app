@@ -1,13 +1,17 @@
+import Icon from "./img/pizzaChief.jpg"
+
 export function createHome(){
     const body = document.querySelector('#content');
     body.innerHTML = " ";
 
     // Option 1
     const content = `
-    <p>Best pizza in the world</p>
-    <p>Made with passion since 1999</p>
-    <img src="path/to/image.jpg" alt="pizza chief">
-    <p>Order online or visit us!</p>
+    <div class="inner-container" style="text-align: center;">
+        <p>Best pizza in the world</p>
+        <p>Made with passion since 1999</p>
+        <img id='pizzaChief' src=${Icon} alt="pizza chief">
+        <p>Order online or visit us!</p>
+    </div>
     `;
 
     body.innerHTML = content;

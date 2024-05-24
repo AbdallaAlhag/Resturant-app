@@ -1,42 +1,120 @@
+@font-face {
+    font-family: "Italianno";
+    src: url("./Italianno-Regular.ttf");
+}
 /* src/styles.css */
 body {
-    margin: 0;
-    color: white;
-    font-family: Arial, sans-serif;
-    background: url("./img/pizzaBackground.jpg") no-repeat;
-    background-size: cover;
+  margin: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+  background: url("./img/pizzaBackground.jpg");
+  background-size: cover;
 }
 
-.container{
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 6fr 1fr;
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 6fr 1fr;
 }
 
-.header, 
+.header,
 #content,
-.footer{
-    background-color: rgba(0, 0, 0, 0.8); /* 80% opacity */
-}
-
-.footer button{
-
-}
-
-.header{
-    /* border-bottom: 3px solid #020617; */
-
-}
-
-#content{
-
-
-}
 .footer {
+  background-color: rgba(0, 0, 0, 0.8); /* 80% opacity */
+}
+.header {
+    text-align: center;
+}
+
+#name{
+    font-size: 72px;
+    font-family: "Italianno";
+}
+.header-button {
+    position: relative;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 20px 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.header-button::after {
+    content: '';
     position: absolute;
+    left: 0;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
-  }
+    height: 2px;
+    background-color: white; /* White line under the button */
+}
+
+
+.header-button:hover {
+    animation: bounce 0.3s ease; /* Apply bounce effect on hover */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+#content{
+    display: grid;
+    justify-self: center; /* Centers horizontally */
+    align-self: center; /* Centers vertically */
+    align-items: center;
+    justify-items: center;
+    width: 75%;
+    height: 85%;
+    font-size: 24px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 25px;
+    gap: 25px;
+}
+
+.menu-container .grid{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.menu-container .grid img{
+    height: 100px;
+    width: 100px;
+}
+
+#pizzaChief{
+    height:350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.pizzaImg{
+    height:100px;
+    width: 100px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+}
